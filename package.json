@@ -1,0 +1,15 @@
+{
+  "name": "proyectos_semana_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.0"
+  }
+}
