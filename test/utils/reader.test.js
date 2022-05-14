@@ -103,13 +103,13 @@ const explorersJSON = [
     name: "Woopa15",
     githubUsername: "ajolonauta15",
     score: 15,
-    mission: "node",
+    mission: "woopa",
     stacks: ["javascript", "elixir", "groovy", "reasonML", "elm"],
   },
 ];
 
 describe("Explorer Service", () => {
-  test("Validar extraccion de explorers", () => {
+  test("1.- Validar extraccion de explorers", () => {
     const explorers = Reader.readJSONFile("explorer.json");
     expect(explorers).toEqual(explorersJSON);
   });
