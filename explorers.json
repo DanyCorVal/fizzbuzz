@@ -162,7 +162,7 @@
       "score": 15,
       "mission": "woopa",
       "stacks": [
-        "javascript",
+        "javascript", 
         "elixir",
         "groovy",
         "reasonML",
